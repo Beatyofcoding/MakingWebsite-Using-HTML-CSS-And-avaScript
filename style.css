@@ -62,12 +62,18 @@ nav{
     display: flex;
     color: #fff;
 }
+.feature div{
+    margin-left: 30px;
+}
+.feature div p{
+    margin-top: 8px;
+}
 .one{
         top: 450px;
         right: 50px;
     }
 .two{
-        top:150px;
+        top:200px;
         left: 350px;
     }
 .three{
@@ -85,4 +91,10 @@ nav{
     left: 35%;
     transform: translateY(-50%);
     z-index: 1;
+}
+.controls{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50);
 }
