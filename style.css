@@ -55,5 +55,24 @@ nav{
     background: #ccc;
 }
 .feature img {
-    
+    width: 70px;
 }
+.feature{
+    position: absolute;
+}
+    .one{
+        top: 450px;
+        right: 50px;
+    }
+    .two{
+        bottom:150px;
+        left: 350px;
+    }
+    .three{
+        bottom:450px;
+        left: 50px;
+    }
+    .four{
+        bottom:150px;
+        right: 350px;
+    }
